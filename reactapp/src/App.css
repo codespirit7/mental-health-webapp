@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-nav-logo {
+  margin-right: 1300px;
+  position: fixed;
+  margin-top: -75px;
+}
+.nav-bar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: #ffff;
+  z-index: 100;
+}
+
+.auth-nav {
+  margin-top: -8px;
+  margin-left: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
+  padding: 18px;
+}
+
+.main-nav {
+  padding: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #44318d;
+  letter-spacing: 2px;
+}
+
+.main-nav:hover {
+  color: #e98074;
+}

@@ -1,0 +1,68 @@
+.form_app {
+  display: flex;
+  flex-direction: row;
+}
+
+.img_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img_container img {
+  width: 500px;
+  height: 450px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.form-form {
+  margin-top: 80px;
+  width: 750px;
+
+  margin-left: 100px;
+  background-color: rgb(226, 239, 248);
+}
+
+.que_container {
+  padding-right: 50px;
+  padding-left: 100px;
+}
+
+.que {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: rgb(68, 141, 197);
+  font-size: 25px;
+}
+
+.radio {
+  display: flex;
+  margin-bottom: 10px;
+  width: 500px;
+  background-color: rgb(192, 225, 245);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  left: 10px;
+  width: 480px;
+  cursor: pointer;
+}
+.submit_butt {
+  box-shadow: 5px 5px;
+  background-color: whitesmoke;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 420px;
+}
+
+.submit_butt:hover {
+  background: tomato;
+}

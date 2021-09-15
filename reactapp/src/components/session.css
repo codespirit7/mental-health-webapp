@@ -1,0 +1,88 @@
+.unique_para1 {
+  position: relative;
+  top:-20px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.main-component {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.grp-chat-heading {
+  font-size: 25px;
+  color: hsl(252, 48%, 37%);
+  padding-bottom: 15px;
+  top: 0;
+}
+.main-div-head-session-h2 {
+  font-size: 25px;
+  color: hsl(252, 48%, 37%);
+  padding-bottom: 15px;
+}
+
+.container-top {
+  margin-top: 100px;
+}
+.grp-chat-img {
+  height: 250px;
+  padding-left: 300px;
+}
+
+.grp-chat-para-div {
+  margin-left: 750px;
+  margin-top: -200px;
+}
+
+.para-list {
+  padding: 5px;
+  list-style: disc;
+
+  font-size: 18px;
+  color: black;
+}
+
+/* .div-head-heading {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  color: #44318d;
+  letter-spacing: 1.5px;
+} */
+
+.main-div-session {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.btn2:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.main-div-head-session {
+  margin-top: -8px;
+  margin-bottom: 40px;
+}
+
+.btn2 {
+  background-color: #3b8beb;
+  color: #ffff;
+  font-size: medium;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.btn2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

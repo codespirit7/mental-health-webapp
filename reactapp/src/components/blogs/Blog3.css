@@ -1,0 +1,28 @@
+.blog1-blogposts {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog1-col {
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+.blog1-blogpost1-para1 {
+  width: 500px;
+
+  font-size: 18px;
+  text-align: left;
+}
+
+a {
+  color: orangered;
+}
+
+.blog1-blogposts-h1 {
+  color: #44318d;
+}
+
+.home-footer {
+  margin-top: 20px;
+}
